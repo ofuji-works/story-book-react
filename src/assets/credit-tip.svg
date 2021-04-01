@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="198" viewBox="0 0 264 198">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbf44"/>
+      <stop offset="1" stop-color="#e29058"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_1" data-name="グループ 1" transform="translate(-424 -722)">
+    <g id="長方形_2" data-name="長方形 2" transform="translate(424 722)" stroke="#000" stroke-width="5" fill="url(#linear-gradient)">
+      <rect width="264" height="198" rx="42" stroke="none"/>
+      <rect x="2.5" y="2.5" width="259" height="193" rx="39.5" fill="none"/>
+    </g>
+    <path id="パス_1" data-name="パス 1" d="M426.383,792.076h80.962V850.2H426.383" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="パス_3" data-name="パス 3" d="M507.345,792.076H426.383V850.2h80.962" transform="translate(176 0.168)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="パス_2" data-name="パス 2" d="M507.345,792.188V918.075" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="パス_4" data-name="パス 4" d="M602.383,852.583v64.649" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="パス_5" data-name="パス 5" d="M507.345,889H600.2" fill="none" stroke="#000" stroke-width="5"/>
+  </g>
+</svg>

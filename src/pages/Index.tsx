@@ -1,11 +1,8 @@
 import React from "react";
+import Template from "../component/templates/Top/Index";
 
 const Index: React.VFC = () => {
-  return (
-    <div className="main">
-      <h1>test</h1>
-    </div>
-  );
+  return <Template />;
 };
 
 export default Index;

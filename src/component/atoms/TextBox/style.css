@@ -1,0 +1,23 @@
+.textBox {
+  height: 60px;
+  position: relative;
+}
+
+.inputText {
+  height: 40px !important;
+  position: absolute !important;
+  bottom: 0;
+}
+
+.errorMessage {
+  min-height: 18px;
+  font-size: 0.75rem;
+  color: #dc163c;
+  position: absolute;
+  top: 0;
+}
+
+.invalid::placeholder {
+  color: #dc163c;
+  opacity: 0.5;
+}

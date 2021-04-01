@@ -1,0 +1,27 @@
+.selectBox {
+  height: 60px;
+  position: relative;
+}
+
+.absolute {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.inputSelect {
+  height: 40px;
+}
+
+.errorMessage {
+  min-height: 18px;
+  font-size: 0.75rem;
+  color: #dc163c;
+  position: absolute;
+  top: 0;
+}
+
+select::placeholder {
+  color: #dc163c;
+  opacity: 0.5;
+}
