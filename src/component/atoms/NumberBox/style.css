@@ -1,0 +1,27 @@
+.numberBox {
+  position: relative;
+  height: 60px;
+  max-width: 400px;
+}
+
+.InputBox {
+  position: absolute !important;
+  bottom: 0 !important;
+  border-bottom: solid 1px #a9aaac;
+}
+
+.numberInput {
+  height: 40px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.error {
+  border-bottom: 1px solid #dc163c;
+}
+
+.errorMessage {
+  position: absolute;
+  height: 18px;
+  color: #dc163c;
+}

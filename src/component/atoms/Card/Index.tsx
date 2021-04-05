@@ -17,7 +17,7 @@ const Index: React.VFC<IProps> = (props) => {
         <h3 className="debit">Debit Card</h3>
         <h3 className="bank">Bank Name</h3>
         <img src={tip} className="chip" />
-        <h3 className="number">0123 4567 8901 2222</h3>
+        <h3 className="number">{props.number}</h3>
         <h5 className="valid">
           <span>
             Valid
