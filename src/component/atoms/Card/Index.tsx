@@ -4,7 +4,8 @@ import "./style.css";
 
 export interface IProps {
   face: "front" | "back";
-  number: number;
+  number: string;
+  securityNumber: string;
 }
 
 const Index: React.VFC<IProps> = (props) => {
@@ -34,7 +35,7 @@ const Index: React.VFC<IProps> = (props) => {
       >
         <div className="blackbar"></div>
         <div className="authorized">
-          <p className="securityNumber">443</p>
+          <p className="securityNumber">{props.securityNumber}</p>
           <h5>Name Name</h5>
         </div>
       </div>

@@ -9,3 +9,4 @@ export default {
 const template: Story<IProps> = (args) => <Index {...args} />;
 
 export const Default = template.bind({});
+Default.args = {};
