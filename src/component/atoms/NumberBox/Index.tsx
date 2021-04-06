@@ -7,6 +7,9 @@ export interface IProps {
   errorMessage: string;
   isInvalid: boolean;
   setNum: (num: string) => void;
+  placeholder?: string;
+  onFocus?: () => void;
+  onBlur?: () => void;
 }
 
 const Index: React.VFC<IProps> = (props) => {
@@ -24,7 +27,20 @@ const Index: React.VFC<IProps> = (props) => {
             className="numberInput"
             maxLength={props.maxLength}
             onChange={(event) => {
+              const regexp: any = /^(\d{1,4})?(\d{1,4})?(\d{1,4})?(\d{1,4})?$/;
+              const digits = event.target.value.replace(/[^0-9]/g, "");
+              event.target.value = [...regexp.exec(digits)]
+                .slice(1)
+                .filter((e) => e)
+                .join(" ");
               props.setNum(event.target.value);
+            }}
+            placeholder={props.placeholder}
+            onFocus={() => {
+              props.onFocus ? props.onFocus() : "";
+            }}
+            onBlur={() => {
+              props.onBlur ? props.onBlur() : "";
             }}
           />
         </Box>

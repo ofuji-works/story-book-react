@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { resolveTripleslashReference } from "typescript";
 import tip from "../../../assets/credit-tip.svg";
 import "./style.css";
 
