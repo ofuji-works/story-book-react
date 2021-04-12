@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { resolveTripleslashReference } from "typescript";
 import tip from "../../../assets/credit-tip.svg";
 import "./style.css";
 
@@ -37,7 +36,6 @@ const Index: React.VFC<IProps> = (props) => {
         <div className="blackbar"></div>
         <div className="authorized">
           <p className="securityNumber">{props.securityNumber}</p>
-          <h5>Name Name</h5>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Select from "../../atoms/SelectBox/Index";
 import "./style.css";
 
 export interface IProps {
-  isInValid: boolean;
+  isInValid?: boolean;
 }
 
 const Index: React.VFC<IProps> = (props) => {

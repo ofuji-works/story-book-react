@@ -1,5 +1,5 @@
 import React from "react";
-import Template from "../component/templates/Top/Index";
+import Template from "../component/templates/Form/Index";
 
 const Index: React.VFC = () => {
   return <Template />;

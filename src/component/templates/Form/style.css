@@ -1,0 +1,22 @@
+.form-background {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 60px 0;
+}
+
+.form-content {
+  max-width: 600px;
+  padding: 30px 100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-block {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
